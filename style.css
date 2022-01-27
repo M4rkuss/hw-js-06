@@ -1,0 +1,22 @@
+*, html, body {
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    line-height: 1.5;
+}
+
+.first, .third, .fifth{
+    padding: 20px;
+}
+
+.first .first-content .first-content-head label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.first-content-head label input{
+    outline: none;
+}

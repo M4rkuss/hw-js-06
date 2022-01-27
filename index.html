@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW JS 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="first">
+    <div class="name-head">
+        <h2>1.</h2>
+    </div>
+    <div class="first-content">
+        <div class="first-content-head">
+            <label>
+                Введите первое число: <input type="text" id="num1">
+            </label>
+            <label>
+                Введите второе число: <input type="text" id="num2">
+            </label>
+            <label>
+                Введите знак (+/-/* или /): <input type="text" id="operator">
+            </label>
+            <button onclick="takeElem()" style="display: block">Получить значение</button>
+            <span>Ваш результат:</span>
+            <span id="result"></span>
+        </div>
+    </div>
+</section>
+
+<section class="third">
+    <div class="name-head">
+        <h2>3.</h2>
+    </div>
+    <div class="third-content">
+        <p id="week"></p>
+        <p>Хотите увидеть следующий день?</p>
+        <button onclick="takeWeek()">OK</button>
+    </div>
+</section>
+
+<section class="fifth">
+    <h1>5.</h1>
+    <p>Тыцни на кнопку и поиграем в игру</p>
+    <button style="padding: 10px 20px;
+border: 1px solid #696969;
+background: white;
+border-radius: 6px; cursor: pointer !important;" onclick="start()">ИГРАТЬ!!</button>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
